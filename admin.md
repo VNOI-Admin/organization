@@ -3,28 +3,28 @@ VNOI Admins - 2014
 
 - Đỗ Xuân Việt
 
-- Lang Trung Hieu
+- Lăng Trung Hiếu
 
-- Le Don Khue
+- Lê Đôn Khuê
 
-- Le Hong Quang
+- Lê Hồng Quang
 
-- Le Yen Thanh
+- Lê Yên Thanh
 
-- Ngo Minh Duc
+- Ngô Minh Đức
 
-- Nguyen Duc Nam
+- Nguyễn Đức Nam
 
-- Nguyen Duy Khanh
+- Nguyễn Duy Khánh
 
-- Nguyen Tan Sy Nguyen
+- Nguyễn Tấn Sỹ Nguyên
 
-- Nguyen Thanh Trung
+- Nguyễn Thành Trung
 
-- Nguyen Xuan Khanh
+- Nguyễn Xuân Khánh
 
-- Nguyen Xuan Tung
+- Nguyễn Tùng
 
-- Tran Anh Huong Thai Huy
+- Trần Anh Hướng Thái Huy
 
-- Truong Minh Bao
+- Trương Minh Bảo
