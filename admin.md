@@ -23,7 +23,7 @@ VNOI Admins - 2014
 
 ### Nguyễn Xuân Khánh
 - Khánh là một trong những admin lâu năm của diễn đàn VNOI. Tuy đang theo học ngành Machine Learning, niềm đam mê về thuật toán lập trình của anh vẫn tràn đầy.
-- Anh có mong muốn giúp được các thế sau này được tiếp cận sớm hơn và đầy đủ hơn về thuật toán nói riêng và bức tranh chung về ngành Khoa Học Máy Tính đương đại nói chung. Anh mong muốn những kiến thức được cung cấp miễn phí và dễ dàng đến với những đối tượng không có điều kiện cập nhật.
+- Anh có mong muốn giúp được các thế sau này được tiếp cận sớm hơn và đầy đủ hơn về thuật toán nói riêng và bức tranh chung về ngành Khoa Học Máy Tính đương đại nói chung. Anh mong muốn những kiến thức về tin học được cung cấp miễn phí và dễ dàng đến với những đối tượng không có điều kiện cập nhật.
 - Hiện Khánh tạm thời lui về làm cố vấn để tập trung cho các mục tiêu khác và cũng để tạo cơ hội cho lứa admin kế cận của VNOI được phát huy và trau dồi.   
 
 ### Nguyễn Tùng  
