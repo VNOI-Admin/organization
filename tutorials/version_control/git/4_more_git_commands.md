@@ -101,6 +101,58 @@ Nếu bạn sửa nhầm 1 file và muốn cho nó về lại giống như versi
 git checkout -- /path/to/file
 ```
 
+# Git merge
+
+Giả sử có 2 người A, B và 1 server S. Ban đầu A và B clone project từ S.
+* A pull
+* B pull
+* A thay đổi 1 số file
+* A commit & push
+* B thay đổi 1 số file
+* B commit & push
+
+Lúc này, B sẽ không thể push được do B đang không có bản mới nhất của Project. (chú ý rằng B có thể push được nếu dùng git push -f, nhưng làm vậy sẽ làm mất commit của A. Do đó bạn không được dùng git push -f trừ khi biết rõ mình đang làm gì).
+
+Để có thể push được, B có thể
+```
+git pull origin master
+```
+
+Bản chất của lệnh pull là gồm 2 lệnh:
+
+```
+git fetch origin master
+git merge origin/master
+```
+
+git fetch origin master lấy những thay đổi ở trên server về
+git merge origin/master merge trạng thái hiện tại của Project với origin/master: bản mới nhất ở server. Để merge, git sẽ cố gắng "làm tốt nhất có thể": nếu A và B thay đổi file ở các vùng khác nhau của file, cả thay đổi của A và B sẽ đc giữ trên file mới. Nếu A và B thay đổi cùng 1 dòng, git merge sẽ bị lỗi. Lúc này file bị cả 2 thay đổi sẽ ở trong tình trạng "unmerged", và nếu mở bằng text editor sẽ thấy nó trông thế này:
+
+```
+<<<<<<< HEAD:index.html
+<div id="footer">contact : email.support@github.com</div>
+=======
+<div id="footer">
+  please contact us at ...
+</div>
+>>>>>>> iss53:index.html
+```
+
+Lúc này bạn cần tự sửa file này (có thể dùng tay hoặc git merge tools - google trên mạng), rồi
+
+```
+git add /file/đã/merge
+```
+
+Sau khi merge xong tất cả các file, bạn git
+
+```
+git commit
+```
+
+Để đánh dấu là đã merge xong và tạo 1 version mới.
+
 ## Bài tập:
 * Nghịch thử các lệnh này
 * Khi nghịch chán, reset lại project bằng cách clone lại từ đầu
+
