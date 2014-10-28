@@ -27,3 +27,7 @@ Git ra đời vào năm 2005, được viết bởi Linus Torvalds để dùng c
 * Distributed
 * Có thể sử dụng cho những project rất lớn.
 
+## Đọc thêm:
+
+* [Wikipedia - Git software](http://en.wikipedia.org/wiki/Git_(software))
+
