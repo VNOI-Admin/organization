@@ -8,7 +8,7 @@ Thông thường, các Version control (không phải Git) lưu lại dữ liệ
 
 Với git, mỗi version là một _snapshot_ của tất cả các file:
 
-<img src="./../../../assets/img/git/snapshot_of_file.png" alt="Git: Snapshot of files" width="566px" height="251px" />
+<img src="./../../../assets/img/git/snapshot_of_file.png" alt="Git: Snapshot of files" width="566px" height="252px" />
 
 ## Hầu hết các thao tác được thực hiện trên máy cá nhân (local)
 
@@ -24,7 +24,7 @@ Một file nằm trong Git Project có thể có 4 trạng thái khác nhau:
 
 Hình dưới đây mô tả sự chuyển đổi trạng thái của 1 file của git.
 
-<img src="./../../../assets/img/git/file_status_lifecycle.png" alt="File status life cycle" width="566px" height="251px" />
+<img src="./../../../assets/img/git/file_status_lifecycle.png" alt="File status life cycle" width="559px" height="346px" />
 
 Chú ý rằng với định nghĩa trên, thì 1 file trong Git Project, có thể vừa ở trạng thái Staged, vừa ở trạng thái Modified. Đây là một điều rất bình thường với Git. Nếu 1 file vừa ở trạng thái Modified, vừa ở trạng thái Staged, thì khi commit, chỉ những thay đổi được thực hiện trước khi bạn thực hiện lệnh git add được cho vào commit tiếp theo. Và sau khi commit, file vẫn sẽ ở trạng thái Modified.
 
