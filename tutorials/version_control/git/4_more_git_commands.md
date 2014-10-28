@@ -78,7 +78,7 @@ Một nguyên tắc quan trọng khi làm việc với git là bạn cần phả
 
 [Đọc thêm về gitignore](http://git-scm.com/docs/gitignore)
 
-# Undo
+## Undo
 
 Nếu bạn vừa commit và phát hiện ra commit nhầm, bạn có thể sửa commit lại bằng cách:
 
@@ -101,7 +101,7 @@ Nếu bạn sửa nhầm 1 file và muốn cho nó về lại giống như versi
 git checkout -- /path/to/file
 ```
 
-# Git merge
+## Git merge
 
 Giả sử có 2 người A, B và 1 server S. Ban đầu A và B clone project từ S.
 * A pull
