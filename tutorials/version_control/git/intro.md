@@ -13,6 +13,6 @@ mỗi 1 cái commit trong Git
 là 1 cái snapshots
 nó chứa tất cả trạng thái của tất cả các file
 
-![alt text](./assets/img/git/snapshot_of_file.png)
+![alt text](./../../../../assets/img/git/snapshot_of_file.png)
 
 
