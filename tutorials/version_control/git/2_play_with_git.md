@@ -58,4 +58,5 @@ git push origin master
 
 Trong câu lệnh trên, ý nghĩa của origin và master giống như đã giải thích ở phần Pull
 
-
+## Bài tập
+* Tự clone project, pull, commit & push
