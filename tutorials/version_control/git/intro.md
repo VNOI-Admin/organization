@@ -13,5 +13,5 @@ mỗi 1 cái commit trong Git
 là 1 cái snapshots
 nó chứa tất cả trạng thái của tất cả các file
 
-<img src="./../../../assets/img/git/snapshot_of_file.png" alt="Git: Snapshot of files" style="width:566px;height:251px"/>
+<img src="./../../../assets/img/git/snapshot_of_file.png" alt="Git: Snapshot of files" width="566px" height="251px" />
 
