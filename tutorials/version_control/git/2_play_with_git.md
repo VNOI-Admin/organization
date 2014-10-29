@@ -58,5 +58,11 @@ git push origin master
 
 Trong câu lệnh trên, ý nghĩa của origin và master giống như đã giải thích ở phần Pull
 
+[Những lần commit của Project VNOI org](https://github.com/VNOI-Admin/organization/commits/master). Ở đây bạn có thể nhìn thấy:
+* Phần bôi đậm: Commit message
+* Tên người commit
+* Thời gian commit
+* Ở bên phải, có dãy 7 ký tự hexa (09335fe), là identifier dùng để xác định 1 commit, gọi là SHA của commit. SHA của commit được dùng khi bạn muốn xem thông tin về 1 commit (``git show <commit SHA>``), so sánh 2 commit với nhau (``git diff <commit 1 SHA> <commit 2 SHA>``)
+
 ## Bài tập
 * Tự clone project, pull, commit & push
