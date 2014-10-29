@@ -66,3 +66,4 @@ Trong câu lệnh trên, ý nghĩa của origin và master giống như đã gi�
 
 ## Bài tập
 * Tự clone project, pull, commit & push
+* Sau khi push xong, [vào tìm commit của bạn](https://github.com/VNOI-Admin/organization/commits/master)

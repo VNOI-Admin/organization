@@ -19,3 +19,6 @@
 
 [Git submodule](http://git-scm.com/docs/git-submodule)
 [Careful with submodule](http://codingkilledthecat.wordpress.com/2012/04/28/why-your-company-shouldnt-use-git-submodules/)
+
+## Git remote
+[Tutorial](http://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
