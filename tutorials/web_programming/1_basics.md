@@ -20,4 +20,4 @@ Trên server:
 
 ## Database
 
-Ở server, database được dùng để lưu trữ dữ liệu. Để hiểu tại sao cần dùng database & hướng dẫn sơ qua về database, đọc ở [đây](./2_database.md2_database.md)
+Ở server, database được dùng để lưu trữ dữ liệu. Để hiểu tại sao cần dùng database & hướng dẫn sơ qua về database, đọc ở [đây](./2_database.md)
