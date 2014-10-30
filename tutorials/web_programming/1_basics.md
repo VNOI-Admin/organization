@@ -45,5 +45,5 @@ Ví dụ:
 show tables;
 ```
 
-<img src="./../../assets/img/database/table_list.png" alt="show tables" width="566px" height="251px" />
+<img src="./../../assets/img/database/table_list.png" alt="show tables" width="283px" height="377px" />
 
