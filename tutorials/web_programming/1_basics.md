@@ -43,7 +43,34 @@ Ví dụ:
 
 ```sql
 show tables;
+-- show tables: hiện tất cả các bảng trong database. Chú ý rằng các lệnh trong SQL là case insensitive.
 ```
 
 <img src="./../../assets/img/database/table_list.png" alt="show tables" width="283px" height="377px" />
+
+Để xem cấu trúc của 1 bảng, ví dụ __users_user__:
+
+```sql
+describe users_user;
+-- describe <table_name>: hiện thông tin về các cột của bảng.
+```
+
+<img src="./../../assets/img/database/describe_table.png" alt="describe table" width="625px" height="199px" />
+
+Để thêm dữ liệu vào 1 bảng:
+
+```sql
+insert into users_user(nick_name, real_name, score) values ('RR', 'Trung', 600);
+-- insert into table_name(col1, col2, ...) values (val1, val2, ...): thêm 1 record vào bảng
+```
+
+<img src="./../../assets/img/database/insert.png" alt="describe table" width="833px" height="167px" />
+
+Hiện các dữ liệu đang có trong bảng:
+
+```sql
+select * from users_user;
+```
+
+<img src="./../../assets/img/database/select.png" alt="describe table" width="359px" height="177px" />
 
