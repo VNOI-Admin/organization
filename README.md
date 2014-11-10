@@ -10,7 +10,3 @@ Hiện tại VNOI có [15 admins](./admin.md).
 ## Định hướng
 
 VNOI làm việc với mục tiêu đẩy mạnh nền tin học Việt Nam, giúp các bạn ở mọi miền có điều kiện tiếp cận với kiến thức Tin học.
-đâsđâs
-
-f
-dfsdfsdfsdfsfe
