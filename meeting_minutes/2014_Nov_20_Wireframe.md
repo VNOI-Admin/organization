@@ -1,10 +1,10 @@
 Phân trang web VNOI
 =======================
-0> Homepage
+0> Homepage (ok)
 ----------
-1>problems.
+1>problems. (ok)
 -----------
-    1.1> problem.
+    1.1> problem. (ok)
 
     1.2> rank.
 
