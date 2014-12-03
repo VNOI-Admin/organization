@@ -66,40 +66,10 @@ Ngôn ngữ lập trình có thể được chia ra làm 2 loại:
 - Compiled languages: Các ngôn ngữ được dịch ra, ví dụ: C++. Khi chạy một đoạn code C++, đầu tiên bạn phải compile (với Windows, phải dịch ra file EXE, còn trong linux thì dịch ra executable file, thường không có extension). Rồi sau đó mới chạy được.
 - Interpreted languages: Sau khi code, bạn chạy luôn, không cần compile.
 
-## Basic Syntax - Data types
+## Cú pháp cơ bản của Python
 
-Giống với các ngôn ngữ như C++, Python cũng có các kiểu dữ liệu cơ bản như boolean, số nguyên, số thực, ký tự... Tuy nhiên, khi khai báo biến, bạn không cần nói rõ kiểu dữ liệu. Interpreter sẽ tự động xác định kiểu dữ liệu.
+Để học syntax cơ bản của Python, bạn có thể lên [Codecademy](http://www.codecademy.com/)
 
-```python
-a = 1
-b = True
-```
+Sau khi biết syntax cơ bản, bạn đã có thể bắt đầu code những thứ cơ bản. Hãy thử code những bài A B Codeforces, hoặc những bài dễ của VOJ như POST, LIS... để quen với syntax. Khi học, hãy để ý những điểm khác nhau của Python và C++, và suy nghĩ xem những philosophy thể hiện ở chỗ nào.
 
-## Basic Syntax - Conditions & Loops:
-
-Conditions (điều kiện)
-
-```python
-if True:
-    print 'Hello'
-else:
-    print 'What???'
-```
-
-Vòng lặp:
-
-```python
-for i in xrange(1,10):
-    print i
-
-a = [10, 20, 30]
-for x in a:
-    print x
-```
-
-## Những cú pháp khác biệt của Python
-
-```python
-a = [x for x in xrange(1, 10)]
-```
-
+Sau đấy, để code Python giống như pro, đọc tiếp tutorial 3.2. Idiomatic Python.
