@@ -37,6 +37,9 @@ Beautiful is better than ugly:
 a, b = b, a
 ```
 
+- Code must be correctly indented
+- Should follow PEP8
+
 Special cases aren't special enough to break the rules: A string of length 1 is not special enough to deserve a dedicated char type.
 
 Although practicality beats purity: That's why we still have method `chr()` and `ord()`

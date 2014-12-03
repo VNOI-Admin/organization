@@ -1,5 +1,7 @@
 # Writing Idiomatic Python
 
+This post is a summary of the book "Writing Idiomatic Python".
+
 ## Control Structures & functions:
 
 ### Avoid comparing directly to True, False and None:
@@ -90,5 +92,64 @@ Bad code:
 ```python
 has_prime = False
 a = [2, 4, 6, 8]
+```
+
+### Avoid using '', [] and {} as default parameters to functions:
+
+Following is a stupid behaviour of Python:
+
+```python
+def f(a, L=[]):
+    L.append(a)
+    return L
+
+print f(1) # prints [1]
+print f(2) # prints [1, 2]
+print f(3) # prints [1, 2, 3]
+
+# This happened because default value of a function is only evaluated once. This makes difference when default is a 
+# mutable object.
+
+# Correct code:
+def f(a, L = None):
+    if L is None:
+        L = []
+    L.append(a)
+    return L
+print f(1) # prints [1]
+print f(2) # prints [2]
+print f(3) # prints [3]
+```
+
+### Use *args and **kwargs to accept arbitrary arguments:
+
+Use `*args` when you're not sure how many arguments might be passed to your function. For example:
+
+```python
+def print_them_all(*args):
+    for thing in args:
+        print thing
+
+print_them_all('RR', 'flashmt', 'khanhptnk')
+```
+
+Use `**kwargs` when you have named arguments that you don't want to define in advance. Usually you should do this if your method have like 7 - 10 arguments:
+
+```python
+def print_things(**kwargs):
+    for name, value in kwargs.items():
+        print '{0} = {1}'.format(name, value)
+
+print_things(apple='fruit', cabbage='vegetable')
+```
+
+Note that a cool thing is you can do the same when calling a function:
+
+```python
+def print_3_things(a, b, c):
+    print 'a = {0}, b = {1}, c = {2}'.format(a, b, c)
+
+mylist = ['RR', 'flashmt', 'khanhptnk']
+print_3_things(*mylist)
 ```
 
