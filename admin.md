@@ -31,6 +31,8 @@ VNOI Admins - 2014
 - Hiện Khánh tạm thời lui về làm cố vấn để tập trung cho các mục tiêu khác và cũng để tạo cơ hội cho lứa admin kế cận của VNOI được phát huy và trau dồi.
 
 ### Nguyễn Tùng
+- PTNK I0912
+- Sinh viên năm nhất Karlsruhe Institute of TEchnology, CLHB Đức
 ### Trần Anh Hướng Thái Huy
 ### Trương Minh Bảo
 ### Lê Xuân Mạnh
