@@ -75,6 +75,7 @@ alpha = ['a', 'b', 'c']
 index = 0
 for c in alpha:
     print '{} - {}'.format(index, c)
+    index += 1
 ```
 
 Good code:
