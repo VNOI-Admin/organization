@@ -32,7 +32,10 @@ VNOI Admins - 2014
 
 ### Nguyễn Tùng
 - PTNK I0912
-- Sinh viên năm nhất Karlsruhe Institute of TEchnology, CLHB Đức
+- Sinh viên năm nhất Karlsruhe Institute of TEchnology, CLHB Đức  
+
 ### Trần Anh Hướng Thái Huy
-### Trương Minh Bảo
+
+### Trương Minh Bảo  
+
 ### Lê Xuân Mạnh
